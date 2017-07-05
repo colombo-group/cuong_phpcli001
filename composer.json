@@ -1,0 +1,12 @@
+{
+    "name": "lecuong/cli",
+    "authors": [
+        {
+            "name": "lecuong",
+            "email": "lecuong732@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.2"
+    }
+}
