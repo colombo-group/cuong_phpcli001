@@ -34,10 +34,8 @@ $num = $climate->arguments->get('num');
                     }
 
                 }
-                $climate = new League\CLImate\CLImate;
-                $defaults = [39, 30, 31, 32, 33, 34, 35, 36, 37, 90, 91, 92, 93, 94, 95, 96, 97];
-                $climate->style->addColor('rage', $defaults[array_rand($defaults, 1)]);
-                $climate->rage($str);
+                $GLOBALS['climate']->style->addColor('rage', $GLOBALS['defaults'][array_rand($GLOBALS['defaults'], 1)]);
+                $GLOBALS['climate']->rage($str);
             }
             return 'c';
         });
